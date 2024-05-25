@@ -17,6 +17,18 @@ const SOCIALS_INFO = [
     icon: <FaTelegramPlane size={40} />,
   },
   {
+    url: TWITTER_URL,
+    icon: <FaTwitter size={40} />,
+  },
+  {
+    url: DEX_URL,
+    icon: <img src="/images/screener.png" className="h-[40px]"></img>,
+  },
+  {
+    url: DEX_TOOLS_URL,
+    icon: <img src="/images/tools.png" className="h-[40px]"></img>,
+  },
+  {
     url: PUMP_URL,
     icon: <img src="/images/pump.webp" className="h-[40px]"></img>,
   },

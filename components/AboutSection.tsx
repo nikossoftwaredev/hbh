@@ -8,22 +8,19 @@ const AboutSection = () => {
       <SectionTitle title={`About ${TOKEN_NAME}`} />
       <Card className="max-w-[600px]">
         <span className="card-body flex flex-wrap  items-center justify-center">
-          <img className="object-contain" src="/images/logo.png" />
+          <img className="object-contain" src="/images/birthday.png" />
           <span>
-            Welcome to <strong className="text-primary">{TOKEN_NAME}</strong>, a
-            revolutionary token built on the Solana blockchain.
+            🦍<b>Harambe</b> was born at the Gladys Porter Zoo in Brownsville,
+            Texas, on <b>May 27, 1999</b>. <br />
+            He was named by Dan Van Coppenolle, a local area counselor who won a
+            naming contest sponsored by the zoo. He came up with the name after
+            listening to the 1988 song{" "}
+            <strong>"Harambe (Working Together for Freedom)"</strong> by Rita
+            Marley, widow of Bob Marley. 🎉Lets celebrate Harambe birthday with
             <br />
-            <br /> Our mission is simple yet impactful. To become the primary
-            cryptocurrency to support <strong>Lemurs</strong> like Mort and King
-            Julian of Madagascar.
+            <strong>$HBH TOKEN</strong>
             <br />
-            <br />
-            We are going to achieve this by reserving <strong>10%</strong> of
-            the tokens in a wallet for saving the wild animals.
-            <br />
-            <br /> 💰 Fill your bags
-            <br /> 🔥 100x in the next days
-            <br /> 🚀 Be one of the {TOKEN_NAME} early investors
+            Dicks out for Harambe!
           </span>
         </span>
       </Card>

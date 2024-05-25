@@ -12,20 +12,30 @@ const RoadMapSection = () => {
             goals: [
               "Launch on pump.fun",
               "Complete king of the hill and bonding curve",
+              "Pay for Dex Screener",
+              "Burn 5M tokens",
             ],
           },
           {
             month: "2nd Stage",
             goals: [
-              "Launch on raydium",
-              "Update DexScreener",
+              "Fill bonding curve",
+              "Raydium Launch",
               "Update DexTools",
-              "Buy trends",
+              "Buy all trends",
+              "Pay Callers",
             ],
           },
           {
             month: "3rd Stage",
-            goals: ["200k MC", "Apply to tier 2 CEX"],
+            goals: [
+              "200k",
+              "300k",
+              "1M",
+              "10M",
+              "100M",
+              "Donate 5% to gorillafund.org",
+            ],
           },
         ].map(({ goals, month }) => (
           <RoadMapCard key={month} month={month} goals={goals} />

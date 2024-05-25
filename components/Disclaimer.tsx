@@ -1,6 +1,3 @@
-import { SectionTitle } from "@/components/SectionTitle";
-import { TOKEN_SYMBOL } from "@/data/config";
-
 export const Disclaimer = () => {
   return (
     <>
@@ -9,7 +6,7 @@ export const Disclaimer = () => {
         value of cryptocurrencies may go down as well as up. Profits may be
         subject to capital gains or other taxes applicable in your jurisdiction.
         <br />
-        Sire Creator: nikossoftwaredev@gmail.com
+        Site Creator: nikossoftwaredev@gmail.com
       </section>
     </>
   );

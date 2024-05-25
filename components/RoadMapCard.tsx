@@ -10,7 +10,7 @@ export const RoadMapCard = ({
   return (
     <Card className="max-w-96">
       <div className="card-body flex flex-col items-center ">
-        <h2 className="card-title text-center uppercase text-primary">
+        <h2 className="card-title text-center uppercase text-primary font-bold">
           {month}
         </h2>
         <span>

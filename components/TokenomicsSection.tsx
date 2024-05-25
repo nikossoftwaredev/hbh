@@ -25,7 +25,7 @@ const TokenomicsSection = () => {
         <SectionTitle title="Tokenomics" />
         <img
           className="w-full h-full col-span-2 md:col-span-1 object-cover rounded-xl  outline outline-accent mb-4"
-          src="images/background.png"
+          src="images/wiki.png"
         />
         <div className="grid grid-cols-2 gap-8">
           <img
