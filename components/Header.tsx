@@ -7,6 +7,7 @@ const Header = () => {
 
   return (
     <header>
+      <script src="https://terminal.jup.ag/main-v1.js" data-preload />
       <nav className="w-full bg-base-200">
         <ul className="p-4 w-full flex flex-wrap flex-col md:flex-row gap-6 justify-center items-center mr-1">
           <img className="h-[50px]" src="/images/logo.png" />

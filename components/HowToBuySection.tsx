@@ -1,4 +1,5 @@
 import Card from "@/components/Card";
+import JupiterTerminal from "@/components/JupiterTerminal";
 import { SectionTitle } from "@/components/SectionTitle";
 import { PUMP_URL, RAYDIUM_URL, TOKEN_SYMBOL } from "@/data/config";
 
@@ -38,36 +39,8 @@ const HowToBuySection = () => {
       <a href={PUMP_URL} target="_blank" className="btn  btn-accent">
         Buy before Raydium <img src="/images/pump.webp" />
       </a>
-      {[
-        {
-          title: "1. Create a Wallet",
-          description:
-            "Download Phantom or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to phantom.app.",
-          image: "/images/phantom.png",
-        },
-        {
-          title: "2. Get Some SOL",
-          description: `Have SOL in your wallet to switch to ${TOKEN_SYMBOL}. If you don’t have any SOL, you can buy SOL from an exchange or cross chain swap and send it to your wallet.`,
-          image: "/images/solana.png",
-        },
-        {
-          title: "3. Go to Raydium, Jupiter.",
-          description: `Connect to Raydium or Jupiter. Go raydium.io or jup.ag in google chrome or on the browser inside your Phantom app. Connect your wallet. Paste the ${TOKEN_SYMBOL} token address into Raydium or Jupiter and confirm the swap. When Phantom prompts you for a wallet signature, sign.`,
-          image: "/images/raydium.png",
-        },
-        {
-          title: `4. Swap SOL for ${TOKEN_SYMBOL}`,
-          description: `Switch SOL for ${TOKEN_SYMBOL}. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility`,
-          image: "/images/buy-mort.webp",
-        },
-      ].map(({ title, description, image }) => (
-        <StepCard
-          key={title}
-          title={title}
-          description={description}
-          image={image}
-        />
-      ))}
+      <SectionTitle title="Buy from Jupiter" />
+      <JupiterTerminal />
     </section>
   );
 };
