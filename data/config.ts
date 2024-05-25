@@ -34,7 +34,7 @@ export const EXCHANGES_LIST  = [
 ];
 
 export const TWITTER_URL = "https://twitter.com/SquirtleT0ken"
-export const TELEGRAM_URL = "https://t.me/cutemort"
+export const TELEGRAM_URL = "https://t.me/hbhsol"
 
 export const TOKEN_SYMBOL = "$HBH"
 export const TOKEN_NAME = "Happy Birthday Harambe"
