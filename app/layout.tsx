@@ -13,20 +13,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const style = {
-    backgroundImage: "url('/images/backround.jpg')",
-    backgroundSize: "cover",
-  };
-
   return (
     <html lang="en" data-theme="madagascar">
+      <head>
+        <script src="https://terminal.jup.ag/main-v1.js"></script>
+      </head>
       <body className="min-h-screen h-screen  font-grandstander">
         <Header />
         <div
           // style={style}
-          className="bg-base-300 w-full flex flex-col items-center justify-center"
+          className="bg-base-300 w-full flex flex-col items-center justify-center "
         >
-          <div className="w-full p-1 max-w-7xl ">{children}</div>
+          <div className="w-full p-1 max-w-7xl mt-[110px] ">{children}</div>
         </div>
       </body>
     </html>

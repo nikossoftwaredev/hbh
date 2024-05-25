@@ -1,11 +1,11 @@
 import Card from "@/components/Card";
 import { SectionTitle } from "@/components/SectionTitle";
-import { TOKEN_NAME } from "@/data/config";
+import { TOKEN_NAME, TOKEN_SYMBOL } from "@/data/config";
 
 const AboutSection = () => {
   return (
     <section id="about">
-      <SectionTitle title={`About ${TOKEN_NAME}`} />
+      <SectionTitle title={`About ${TOKEN_SYMBOL}`} />
       <Card className="max-w-[600px]">
         <span className="card-body flex flex-wrap  items-center justify-center">
           <img className="object-contain" src="/images/birthday.png" />

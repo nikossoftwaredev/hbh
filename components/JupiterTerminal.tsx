@@ -2,10 +2,10 @@
 
 import Card from "@/components/Card";
 import { TOKEN_ADDRESS } from "@/data/config";
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 
 const JupiterTerminal = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     (window as any).Jupiter.init({
       displayMode: "integrated",
       strictTokenList: false,
@@ -19,8 +19,9 @@ const JupiterTerminal = () => {
       },
     });
   }, []);
+
   return (
-    <Card className="bg-black">
+    <Card>
       <div id="integrated-terminal"></div>
     </Card>
   );
