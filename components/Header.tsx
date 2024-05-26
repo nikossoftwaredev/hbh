@@ -5,7 +5,7 @@ import { headerLinks } from "@/data/config";
 
 const Header = () => {
   return (
-    <header className="w-full z-50  bg-base-200 fixed max-h-[100px]">
+    <header className="w-full z-[999]  bg-base-200 fixed max-h-[100px]">
       <nav className="w-full text-accent ">
         <span className="md:hidden">
           <MobileHeader />

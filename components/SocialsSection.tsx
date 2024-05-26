@@ -39,7 +39,7 @@ const SocialsSection = () => {
     <section id="socials">
       <SectionTitle title="Socials" />
       <Card className="w-full">
-        <div className="card-body flex flex-row items-center justify-center gap-8">
+        <div className="card-body flex flex-row flex-wrap items-center justify-center gap-8">
           {SOCIALS_INFO.map(({ url, icon }) => (
             <a
               key={url}

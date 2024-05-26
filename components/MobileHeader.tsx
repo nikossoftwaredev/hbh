@@ -20,7 +20,7 @@ const MobileHeader = () => {
         </button>
       </div>
       {openModal && (
-        <div className="h-screen-small h-screen w-screen rounded-lg max-h-screen max-w-none flex  items-center flex-col bg-base-100  backdrop-blur-lg">
+        <div className="p-3 h-screen-small h-screen w-screen rounded-lg max-h-screen max-w-none flex  items-center flex-col bg-base-100  backdrop-blur-lg">
           <span className="flex flex-col gap-4 mb-10">
             {headerLinks.map((linkConfig, idx) => {
               return (

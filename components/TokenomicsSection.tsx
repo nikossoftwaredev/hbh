@@ -25,7 +25,7 @@ const TokenomicsSection = () => {
         <SectionTitle title="Tokenomics" />
         <img
           className="w-full h-full col-span-2 md:col-span-1 object-cover rounded-xl  outline outline-accent mb-4"
-          src="images/wiki.png"
+          src="images/background.png"
         />
         <div className="grid grid-cols-2 gap-8">
           <img
@@ -42,6 +42,10 @@ const TokenomicsSection = () => {
               <Stat key={title} title={title} value={value} />
             ))}
           </div>
+          <img
+            className="w-full h-full col-span-2 md:col-span-2 object-cover rounded-xl  outline outline-accent mb-4"
+            src="images/wiki.png"
+          />
           <SectionTitle title="Token address" className="col-span-2" />
 
           <Card className="col-span-2">
@@ -63,7 +67,7 @@ const TokenomicsSection = () => {
                   {TOKEN_ADDRESS}
                 </button>
                 <a href={PUMP_URL} target="_blank" className="btn  btn-accent">
-                  Buy before Raydium <img src="/images/pump.webp" />
+                  Buy <img src="/images/pump.webp" />
                 </a>
 
                 <a

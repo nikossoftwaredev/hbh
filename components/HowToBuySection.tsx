@@ -37,7 +37,7 @@ const HowToBuySection = () => {
     >
       <SectionTitle title="HOW TO BUY" />
       <a href={PUMP_URL} target="_blank" className="btn  btn-accent">
-        Buy before Raydium <img src="/images/pump.webp" />
+        Buy <img src="/images/pump.webp" />
       </a>
       <SectionTitle title="Buy from Jupiter" />
       <JupiterTerminal />
