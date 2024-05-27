@@ -6,7 +6,6 @@ export const Disclaimer = () => {
         value of cryptocurrencies may go down as well as up. Profits may be
         subject to capital gains or other taxes applicable in your jurisdiction.
         <br />
-        Site Creator: nikossoftwaredev@gmail.com
       </section>
     </>
   );

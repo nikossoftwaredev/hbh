@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <main className="h-full bg-transparent">
       <div className="flex flex-col items-center justify-center gap-16 m-2">
-        <TokenomicsSection />
         <AboutSection />
+        <TokenomicsSection />
         <HowToBuySection />
         <RoadMapSection />
         <SocialsSection />
