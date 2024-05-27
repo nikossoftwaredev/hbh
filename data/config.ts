@@ -34,7 +34,7 @@ export const EXCHANGES_LIST  = [
 ];
 
 export const TWITTER_URL = "https://x.com/hbhonsol"
-export const TELEGRAM_URL = "https://t.me/hbhsol"
+export const TELEGRAM_URL = "https://t.me/hbhonsol"
 
 export const TOKEN_SYMBOL = "$HBH"
 export const TOKEN_NAME = "Happy Birthday Harambe"
