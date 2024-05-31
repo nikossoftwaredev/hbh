@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="winter">
+    <html lang="en" data-theme="dark">
       <head>
         <script src="https://terminal.jup.ag/main-v1.js"></script>
       </head>

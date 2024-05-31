@@ -29,7 +29,7 @@ const TokenomicsSection = () => {
         />
         <div className="grid grid-cols-2 gap-8">
           <img
-            className="w-full h-full col-span-2 md:col-span-1 object-cover rounded-xl  outline outline-accent "
+            className="w-full h-full col-span-2 md:col-span-1 object-contain rounded-xl  outline outline-accent "
             src="images/cute-mort.gif"
           />
           <div className="col-span-2 md:col-span-1 stats stats-vertical shadow outline outline-accent">
@@ -42,10 +42,6 @@ const TokenomicsSection = () => {
               <Stat key={title} title={title} value={value} />
             ))}
           </div>
-          <img
-            className="w-full h-full col-span-2 md:col-span-2 object-cover rounded-xl  outline outline-accent mb-4"
-            src="images/wiki.png"
-          />
           <SectionTitle title="Token address" className="col-span-2" />
 
           <Card className="col-span-2">

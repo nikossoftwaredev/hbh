@@ -36,11 +36,11 @@ export const EXCHANGES_LIST  = [
 export const TWITTER_URL = "https://x.com/hbhonsol"
 export const TELEGRAM_URL = "https://t.me/hbhonsol"
 
-export const TOKEN_SYMBOL = "$HBH"
-export const TOKEN_NAME = "Happy Birthday Harambe"
+export const TOKEN_SYMBOL = "$JABBA"
+export const TOKEN_NAME = "Jabba Wif Hat"
 export const TOTAL_SUPPLY = "1B"
 
-export const TOKEN_ADDRESS = "22E7xbd8sVwZLrTFg7rqs4pPRppm6hbAcq9zDeDeDizt"
+export const TOKEN_ADDRESS = "soon"
 export const RAYDIUM_URL = `https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${TOKEN_ADDRESS}&fixed=in`
 export const BIRDEYE_URL = `https://birdeye.so/token/${TOKEN_ADDRESS}?chain=solana`
 export const DEX_URL = `https://dexscreener.com/solana/${TOKEN_ADDRESS}`;

@@ -20,7 +20,14 @@ const config: Config = {
     },
   },
   daisyui: {
-    themes: ["winter"],
+    themes: [
+      {
+        black: {
+          ...require("daisyui/src/theming/themes")["black"],
+          primary: "#FFE81F",
+        },
+      },
+    ],
   },
   plugins: [require("daisyui")],
 };

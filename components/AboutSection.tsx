@@ -8,19 +8,19 @@ const AboutSection = () => {
       <SectionTitle title={`About ${TOKEN_SYMBOL}`} />
       <Card className="max-w-[600px]">
         <span className="card-body flex flex-wrap  items-center justify-center">
-          <img className="object-contain" src="/images/birthday.png" />
+          <img className="object-contain" src="/images/logo.png" />
           <span>
-            🦍<b>Harambe</b> was born at the Gladys Porter Zoo in Brownsville,
-            Texas, on <b>May 27, 1999</b>. <br />
-            He was named by Dan Van Coppenolle, a local area counselor who won a
-            naming contest sponsored by the zoo. He came up with the name after
-            listening to the 1988 song{" "}
-            <strong>"Harambe (Working Together for Freedom)"</strong> by Rita
-            Marley, widow of Bob Marley. 🎉Lets celebrate Harambe birthday with
-            <br />
-            <strong>$HBH TOKEN</strong>
-            <br />
-            Dicks out for Harambe!
+            <b className="text-primary">Jabba the Hutt</b> is a major antagonist
+            in the Star Wars franchise, created by George Lucas. Voiced by Larry
+            Ward and portrayed by a team of puppeteers in Return of the Jedi,
+            Jabba is a large slug-like creature inspired by annelid worms.
+            <br /> Originally intended to appear in Star Wars (1977) as a stop
+            motion character with Declan Mulholland as a stand-in, Jabba was
+            later added as a CGI character in the 1997 Special Edition
+            re-release. He also appears in The Phantom Menace.
+            <br /> This time, Jabba is humorously referred to as{" "}
+            <b className="text-primary">Jabba Wif Hat</b> sporting a stylish
+            hat.
           </span>
         </span>
       </Card>
