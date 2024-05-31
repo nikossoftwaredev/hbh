@@ -33,8 +33,8 @@ export const EXCHANGES_LIST  = [
   
 ];
 
-export const TWITTER_URL = "https://x.com/hbhonsol"
-export const TELEGRAM_URL = "https://t.me/hbhonsol"
+export const TWITTER_URL = "https://x.com/jabbawifhat"
+export const TELEGRAM_URL = "https://t.me/jabbawifhat"
 
 export const TOKEN_SYMBOL = "$JABBA"
 export const TOKEN_NAME = "Jabba Wif Hat"
