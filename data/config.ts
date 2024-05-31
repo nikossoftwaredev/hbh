@@ -40,7 +40,7 @@ export const TOKEN_SYMBOL = "$JABBA"
 export const TOKEN_NAME = "Jabba Wif Hat"
 export const TOTAL_SUPPLY = "1B"
 
-export const TOKEN_ADDRESS = "57mJDVkYtaJGphmWXXE5EWa7ayVnkqRzoJorLTkapump"
+export const TOKEN_ADDRESS = "E8pGWpkDYzivTcBDgG9nmcSLCATjHE4xjk44WrxXpump"
 export const RAYDIUM_URL = `https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${TOKEN_ADDRESS}&fixed=in`
 export const BIRDEYE_URL = `https://birdeye.so/token/${TOKEN_ADDRESS}?chain=solana`
 export const DEX_URL = `https://dexscreener.com/solana/${TOKEN_ADDRESS}`;
