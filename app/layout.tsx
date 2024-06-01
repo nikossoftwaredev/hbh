@@ -5,7 +5,18 @@ import { TOKEN_ADDRESS, TOKEN_NAME, TOKEN_SYMBOL } from "@/data/config";
 
 export const metadata: Metadata = {
   title: `${TOKEN_NAME} (${TOKEN_SYMBOL})`,
-  description: TOKEN_ADDRESS,
+  description: TOKEN_NAME,
+  robots: "index, follow",
+  openGraph: {
+    title: TOKEN_NAME,
+    description: TOKEN_NAME,
+    images: "/images/background.png",
+  },
+  twitter: {
+    title: TOKEN_NAME,
+    description: TOKEN_NAME,
+    images: "/images/background.png",
+  },
 };
 
 export default function RootLayout({
