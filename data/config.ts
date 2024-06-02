@@ -33,14 +33,14 @@ export const EXCHANGES_LIST  = [
   
 ];
 
-export const TWITTER_URL = "https://x.com/jabbawifhat"
-export const TELEGRAM_URL = "https://t.me/jabbawifhat"
+export const TWITTER_URL = "https://x.com/jabbawifhutt"
+export const TELEGRAM_URL = "https://t.me/jabbawifhutt"
 
-export const TOKEN_SYMBOL = "$JABBA"
-export const TOKEN_NAME = "Jabba Wif Hat"
+export const TOKEN_SYMBOL = "$JABBAWIF"
+export const TOKEN_NAME = "Jabba Wif Hutt"
 export const TOTAL_SUPPLY = "1B"
 
-export const TOKEN_ADDRESS = "ATZLRvZPVofkePayBhY8xYbg8C7PV6iwjqiKkZUPpump"
+export const TOKEN_ADDRESS = "soon"
 export const RAYDIUM_URL = `https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${TOKEN_ADDRESS}&fixed=in`
 export const BIRDEYE_URL = `https://birdeye.so/token/${TOKEN_ADDRESS}?chain=solana`
 export const DEX_URL = `https://dexscreener.com/solana/${TOKEN_ADDRESS}`;
